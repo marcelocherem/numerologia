@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/template.css">
+    <title>Numerologia</title>
+</head>
+<body>
+    <div class="name">
+        <h1>SCOPRI IL NUMERO DEL TUO NOME IN NUMEROLOGIA</h1>
+    </div>
+    <form class="user_form">    
+        <div class="box box1">
+            <label>NOME</label><br>
+            <input id="fName" type="text" placeholder="inserisci qui" required><br><br>
+        </div>
+        <div class="box box2">
+            <label>COGNOME</label><br>
+            <input id="lName" type="text" placeholder="inserisci qui" required><br><br>
+        </div>
+        <div class="box box3">
+            <div class="container">
+                <button class="button" type="button" onclick="calculateAndDisplay()">Calcolare</button>
+            </div>
+            <div class="line"></div>
+            <div class="result" id="result">SCRIVI IL TUO NOME E COGNOME POI CLICCA SU CALCOLARE</div>
+        </div>
+    </form>
+    
+</body>
+<script src="assets/js/main.js"></script>
+</html>
